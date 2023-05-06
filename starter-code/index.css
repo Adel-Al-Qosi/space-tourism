@@ -656,3 +656,22 @@ body {
   }
 
 }
+
+.btn-num {
+  width: 5rem;
+  aspect-ratio: 1;
+  background-color: hsl(var(--clr-dark));
+  border-radius: 50%;
+  color: hsl(var(--clr-white) / 1);
+  border: solid 1px hsl(var(--clr-white) / 0.25);
+}
+
+.num-indicators > *:hover,
+.num-indicators > *:focus {
+  border: solid 1px hsl(var(--clr-white) / 0.5);
+}
+
+.num-indicators > [aria-selected="true"] {
+  background-color: hsl(var(--clr-white) / 1);
+  color: hsl(var(--clr-dark))
+}
